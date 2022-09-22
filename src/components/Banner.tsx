@@ -49,7 +49,7 @@ export const Banner = () => {
                             <span className="tagline"> Bem-vindo ao meu Portfólio</span>
                             <h1>{`Olá, Eu sou Bruno`} <br /> <span className="txt-rotate"></span> <span className="wrap"> &nbsp; {text} </span> </h1>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim eros, faucibus tincidunt urna sed, euismod sollicitudin mauris. </p>
-                            <a href={"#"} target="_blank" download>
+                            <a href={"#"} target="_blank" rel="noreferrer" download>
                                 <button> Download CV <BsDownload className="svg" /> </button>
                             </a>
                         </div>

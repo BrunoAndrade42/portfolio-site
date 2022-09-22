@@ -1,5 +1,6 @@
 import { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
+import Image from "next/image";
 
 
 export const Contact = () => {
@@ -32,7 +33,7 @@ export const Contact = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6">
-                            <img src="/images/contact-img.svg" alt="Contact Us" />
+                            <Image src="/images/contact-img.svg" layout="responsive" width={200} height={200} alt="Contact Us" />
                         </div>
                         <div className="col-md-6">
                             <h2> Entre em Contato</h2>

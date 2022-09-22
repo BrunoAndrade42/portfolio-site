@@ -9,8 +9,8 @@ export const Footer = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col text-center">
                             <div className="social-icon">
-                                <a href="https://www.linkedin.com/in/bruno-andrade42/" target="_blank"> <Linkedin className="svg" /> </a>
-                                <a href="https://github.com/BrunoAndrade42" target="_blank"> <Github className="github svg" /> </a>
+                                <a href="https://www.linkedin.com/in/bruno-andrade42/" target="_blank" rel="noreferrer"> <Linkedin className="svg" /> </a>
+                                <a href="https://github.com/BrunoAndrade42" target="_blank" rel="noreferrer"> <Github className="github svg" /> </a>
                             </div>
                             <p>Site feito por Bruno Andrade 🤖🚀</p>
                         </div>

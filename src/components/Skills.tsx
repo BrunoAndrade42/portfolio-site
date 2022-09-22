@@ -42,25 +42,25 @@ export const Skills = () => {
                                     }}
                                 >
                                     <SwiperSlide className="item">
-                                            <Image src="/images/meter1.svg" width={150} height={150} />
+                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
                                             <h5> Analista de Dados</h5>
                                     </SwiperSlide>
                                     
                                     <SwiperSlide className="item">
-                                            <Image src="/images/meter1.svg" width={150} height={150} />
+                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
                                             <h5> Dev. Front-End</h5>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="item">
                                         <div>
-                                            <Image src="/images/meter1.svg" width={150} height={150} />
+                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
                                             <h5> SQL </h5>
                                         </div>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="item">
                                         <div>
-                                            <Image src="/images/meter1.svg" width={150} height={150} />
+                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
                                             <h5> Python/R </h5>
                                         </div>
                                     </SwiperSlide>

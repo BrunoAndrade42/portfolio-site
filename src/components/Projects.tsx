@@ -65,8 +65,6 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <img className="background-image-right" src={"/images/color-sharp2.png"} />
-
             </section>
         </>
     )
