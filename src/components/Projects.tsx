@@ -40,11 +40,6 @@ export const Projects = () => {
                                     <li className="nav-item">
                                         <a className={`${activeTab === 'Tab 2' ?  "active" : ""} nav-link`}  onClick={() => onUpdateActiveTab('Tab 2')}> Tab 2</a>
                                     </li>
-
-                                    <li className="nav-item">
-                                        <a className={`${activeTab === 'Tab 3' ?  "active" : ""} nav-link`}  onClick={() => onUpdateActiveTab('Tab 3')}> Tab 3</a>
-                                    </li>
-
                                 </ul>
 
                                 <div className="tab-content">
