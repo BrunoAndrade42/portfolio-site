@@ -6,9 +6,14 @@ export const Projects = () => {
     const [activeTab, setActiveTab] = useState('Tab 1')
 
 
-    const projects = [
+    const projectsAnalyst = [
         {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
         {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
+        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
+        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
+    ]
+
+    const projectsFrontEnd = [
         {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
         {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
     ]
@@ -45,7 +50,7 @@ export const Projects = () => {
                                 <div className="tab-content">
                                     <div className={`tab-pane ${activeTab === 'Tab 1' ?  "active" : ""}`}>
                                         <div className="row">
-                                            {projects.map((proj, idx) => {
+                                            {projectsAnalyst.map((proj, idx) => {
                                                 return (
                                                     <ProjectCard key={idx} {...proj} />
                                                 )
@@ -54,11 +59,13 @@ export const Projects = () => {
                                     </div>
 
                                     <div className={`tab-pane ${activeTab === 'Tab 2' ?  "active" : ""}`}>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                                    </div>
-                                    
-                                    <div className={`tab-pane ${activeTab === 'Tab 3' ?  "active" : ""}`}>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                        <div className="row">
+                                            {projectsFrontEnd.map((proj, idx) => {
+                                                return (
+                                                    <ProjectCard key={idx} {...proj} />
+                                                )
+                                            })}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
