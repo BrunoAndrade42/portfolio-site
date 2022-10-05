@@ -55,7 +55,7 @@ export const Contact = () => {
                                         <input type="text" name="assunto" placeholder="Assunto" required />
                                     </div>
 
-                                    <div className="col-12">
+                                    <div className="col-sm-12 px-1">
                                         <textarea rows={6} name="mensagem" placeholder="Mensagem" required ></textarea>
                                         <button type="submit"> <span> {buttonText} </span> </button>
                                     </div>

@@ -19,8 +19,7 @@ export const Skills = () => {
                     <div className="row">
                         <div className="col">
                             <div className="skill-box">
-                                <h2> Skills </h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim eros, faucibus tincidunt urna sed, euismod sollicitudin mauris. </p>
+                                <h2> Skills </h2> <br /> <br />
                                 <Swiper
                                     slidesPerView="auto"
                                     modules={[Navigation]}

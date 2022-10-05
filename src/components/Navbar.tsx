@@ -62,6 +62,21 @@ export const Navbar = () => {
                                 Skills
                             </Scroll.Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Scroll.Link 
+                                to="aboutMe" 
+                                spy={true}
+                                offset={-100}
+                                smooth={true} 
+                                duration={500}
+                                className={`${activeLink === 'aboutMe' ?  "active" : ""} nav-link`}  
+                                onClick={() => onUpdateActiveLink('aboutMe')}>
+
+                                Sobre mim
+                            </Scroll.Link>
+                        </li>
+
                         <li className="nav-item">
                             <Scroll.Link 
                                 to="projects" 
@@ -72,9 +87,10 @@ export const Navbar = () => {
                                 className={`${activeLink === 'projects' ?  "active" : ""} nav-link`}  
                                 onClick={() => onUpdateActiveLink('projects')}>
 
-                                Projects
+                                Projetos
                             </Scroll.Link>
                         </li>
+
                     </ul>
                     <span className="navbar-text">
                         <div className="social-icon">
