@@ -7,14 +7,14 @@ export const Projects = () => {
 
 
     const projectsAnalyst = [
-        {title: "Filotaxia: Desenhando Flores com Matemática", description: "Visualização de dados e Caso de Estudo", imgUrl: "/images/flor-interativa.png"},
-        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
-        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
-        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
+        {title: "Filotaxia: Desenhando Flores com Matemática", description: "Visualização de dados e Caso de Estudo", imgUrl: "/images/flor-interativa.png", url: "https://github.com/BrunoAndrade42/Drawing-Flowers"},
+        {title: "Cyclistic Capstone Google", description: "Projeto completo; visualização, limpeza e manipulação de dados;", imgUrl: "/images/topestacoes.png", url: "https://github.com/BrunoAndrade42/Cyclistic-Capstone-Google"},
+        {title: "O Mapa Fantasma", description: "Visualização e manipulação de dados; Caso de estudo", imgUrl: "/images/capa_john_snow_colera.png", url: "https://github.com/BrunoAndrade42/The-Ghost-Map"},
+        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png", url:""},
     ]
 
     const projectsFrontEnd = [
-        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png"},
+        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png", url:""},
     ]
 
     const onUpdateActiveTab = (value) => {
@@ -27,7 +27,7 @@ export const Projects = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h2>Projects</h2>
+                            <h2>Projetos</h2>
                             <p> Uma amostra do meu trabalho e projetos pessoais </p>
                             <div className=" nav nav-tabs" id="projects-tabs">
                                 <ul className="nav nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
