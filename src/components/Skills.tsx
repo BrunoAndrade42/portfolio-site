@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper";
 import Image from "next/image";
+import { CircleProgressBar } from "./CircleProgressBar";
 
 export const Skills = () => {
     
@@ -41,25 +42,29 @@ export const Skills = () => {
                                     }}
                                 >
                                     <SwiperSlide className="item">
-                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
-                                            <h5> Analista de Dados</h5>
+                                            <CircleProgressBar progress="0.92"></CircleProgressBar>
+                                            <span>92%</span>
+                                            <h5> Pacote Office/Excel/Google Sheets</h5>
                                     </SwiperSlide>
                                     
                                     <SwiperSlide className="item">
-                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
-                                            <h5> Dev. Front-End</h5>
+                                            <CircleProgressBar progress="0.83"></CircleProgressBar>
+                                            <span>83%</span>
+                                            <h5> Power BI/Tableau</h5>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="item">
                                         <div>
-                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
-                                            <h5> SQL </h5>
+                                            <CircleProgressBar progress="0.87"></CircleProgressBar>
+                                            <span>87%</span>
+                                            <h5> SQL <br />(Bigquery, Postgree, MySQL) </h5>
                                         </div>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="item">
                                         <div>
-                                            <Image src="/images/meter1.svg" alt="" width={150} height={150} />
+                                            <CircleProgressBar progress="0.94"></CircleProgressBar>
+                                            <span>94%</span>
                                             <h5> Python/R </h5>
                                         </div>
                                     </SwiperSlide>
