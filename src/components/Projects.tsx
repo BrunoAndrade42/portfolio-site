@@ -10,7 +10,7 @@ export const Projects = () => {
         {title: "Filotaxia: Desenhando Flores com Matemática", description: "Visualização de dados e Caso de Estudo", imgUrl: "/images/flor-interativa.png", url: "https://github.com/BrunoAndrade42/Drawing-Flowers"},
         {title: "Cyclistic Capstone Google", description: "Projeto completo; visualização, limpeza e manipulação de dados;", imgUrl: "/images/topestacoes.png", url: "https://github.com/BrunoAndrade42/Cyclistic-Capstone-Google"},
         {title: "O Mapa Fantasma", description: "Visualização e manipulação de dados; Caso de estudo", imgUrl: "/images/capa_john_snow_colera.png", url: "https://github.com/BrunoAndrade42/The-Ghost-Map"},
-        {title: "Business Startup", description: "Design & Development", imgUrl: "/images/project-img1.png", url:""},
+        {title: "Análise Exploratória de Dados da COVID-19", description: "Visualização, limpeza e manipulação de dados;", imgUrl: "/images/capa_data_covid.png", url:"https://github.com/BrunoAndrade42/Exploratory-Data-Analysis-COVID19"},
     ]
 
     const projectsFrontEnd = [
@@ -36,9 +36,9 @@ export const Projects = () => {
                                         <a className={`${activeTab === 'Análise de Dados' ?  "active" : ""} nav-link`}  onClick={() => onUpdateActiveTab('Análise de Dados')} >Análise de Dados</a>
                                     </li>
                         
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <a className={`${activeTab === 'Dev. Front-End' ?  "active" : ""} nav-link`}  onClick={() => onUpdateActiveTab('Dev. Front-End')}> Dev. Front-End</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
 
                                 <div className="tab-content">
@@ -52,7 +52,7 @@ export const Projects = () => {
                                         </div>
                                     </div>
 
-                                    <div className={`tab-pane ${activeTab === 'Dev. Front-End' ?  "active" : ""}`}>
+                                    {/* <div className={`tab-pane ${activeTab === 'Dev. Front-End' ?  "active" : ""}`}>
                                         <div className="row">
                                             {projectsFrontEnd.map((proj, idx) => {
                                                 return (
@@ -60,7 +60,7 @@ export const Projects = () => {
                                                 )
                                             })}
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
